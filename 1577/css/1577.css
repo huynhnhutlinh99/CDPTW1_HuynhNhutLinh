@@ -1,0 +1,49 @@
+.nl-font-pt, .type-1577 a, .type-1577 div, .type-1577 span {
+  font-family: "PT Serif"; }
+
+.type-1577 {
+  text-align: center; }
+  .type-1577 .nl-div-img-12 img {
+    height: auto;
+    width: 100%; }
+  .type-1577 a {
+    text-decoration: none; }
+    .type-1577 a span {
+      text-transform: uppercase;
+      color: #000;
+      margin: auto;
+      font-size: 14px;
+      font-weight: 700; }
+    .type-1577 a:hover {
+      text-decoration: none; }
+  .type-1577 .name-brand {
+    margin-top: 10px;
+    display: inline-block; }
+  .type-1577 .name-item {
+    text-align: center; }
+    .type-1577 .name-item a {
+      color: #000;
+      font-family: "PT Serif";
+      font-size: 14px;
+      font-style: italic;
+      line-height: 1.4em; }
+  .type-1577 p .price {
+    font-style: italic; }
+  .type-1577 p .price-old {
+    color: #999;
+    margin-right: 5px; }
+  .type-1577 .nl-btn-sn {
+    background-color: #000;
+    border: 0;
+    color: #fff;
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+    padding: 6px 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 15px;
+    margin-bottom: 30px;
+    display: inline-block; }
+    .type-1577 .nl-btn-sn:hover {
+      background-color: #a95a43;
+      cursor: pointer; }
