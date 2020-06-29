@@ -1,0 +1,68 @@
+$color-orange: #a8642a;
+.type-1582{
+    font-family: "PT Serif", Helvetica, Arial, Verdana, sans-serif;
+    input{
+        outline: none;
+
+        &[type=checkbox]{
+            cursor: pointer;
+            position: relative;
+            top: 1.5px;
+        }
+    }
+    textarea{
+        outline: none;
+    }
+    h3{
+        position: relative;
+        font: normal 26px / 30px "PT Serif";
+        line-height: 30px;
+        text-transform: none;
+        text-align: center;
+        padding-bottom: 10px;
+        margin-top: 20px;
+        &:after{
+            position: absolute;
+            content: "";
+            width: 60px;
+            height: 0;
+            border-bottom: 3px solid $color-orange;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+    }
+    .ip-full{
+        width: 100%;
+        border: 1px solid #000;
+        margin-bottom: 15px;
+        padding: 10px 12px;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .font-12{
+        font-size: 12px;
+    }
+    .mar-top-40{
+        margin-top: 40px;
+    }
+    .nl-post-cm{
+        border: 0;
+        background-color: #000;
+        color: #fff;
+        font-size: 14px;
+        padding: 0 18px;
+        line-height: 33px;
+        margin: 20px 0;
+        &:hover{
+            cursor: pointer;
+            background-color: $color-orange;
+        }
+    }
+    .nl-assistive-text{
+        position: absolute!important;
+        clip: rect(1px,1px,1px,1px);
+    }
+}
